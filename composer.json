@@ -1,0 +1,47 @@
+{
+    "name": "bugbulltech/spedcommon",
+    "type": "library",
+    "description": "sped-common",
+    "keywords": [
+        "nfe",
+        "sped",
+        "nfephp"
+    ],
+    "license": [
+        "GPL-3.0+",
+        "LGPL-3.0+"
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+        "ext-dom": "*",
+        "ext-xml": "*",
+        "ext-libxml": "*",
+        "ext-xmlreader": "*",
+        "ext-curl": "*",
+        "ext-soap": "*",
+        "ext-openssl": "*",
+        "ext-zip": "*",
+        "ext-zlib": "*",
+        "ext-fileinfo": "*",
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "zendframework/zend-servicemanager": "^2.5",
+        "zendframework/zend-mail": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+          "NFePHP\\Common\\": "src/" 
+        } 
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
